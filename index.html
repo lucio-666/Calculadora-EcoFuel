@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>EcoFuel Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>EcoFuel Calculator</h1>
+    <form id="fuelForm">
+        <label>Distância (km): <input type="number" id="distance" required></label><br>
+        <label>Consumo E85 (km/l): <input type="number" id="e85Cons" required></label>
+        <label>Preço E85 (R$/l): <input type="number" id="e85Price" required></label><br>
+        <label>Consumo Gasolina (km/l): <input type="number" id="gasCons" required></label>
+        <label>Preço Gasolina (R$/l): <input type="number" id="gasPrice" required></label><br>
+        <label>Consumo GNV (km/m³): <input type="number" id="gnvCons" required></label>
+        <label>Preço GNV (R$/m³): <input type="number" id="gnvPrice" required></label><br><br>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
